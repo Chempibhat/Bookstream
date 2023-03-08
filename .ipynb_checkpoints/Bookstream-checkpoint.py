@@ -52,9 +52,9 @@ def main():
         st.markdown("<h1 style='text-align: center;'>Bookstream -Unlock the world of knowledge and imagination </h1>", unsafe_allow_html=True)
         st.image('book1.jpeg')
         st.header('Welcome to our Book Recommender')
-        col1, col2 = st.columns([1,3])
+        col1, col2 = st.columns([1,2])
         with col1:
-            st.subheader('Do you Know?')
+            st.subheader('Did you Know?')
         with col2:
             st.image('tes.jfif', width=75)    
         st.write('* Reading for just 20 minutes a day can expose you to about 1.8 million words per year.')
